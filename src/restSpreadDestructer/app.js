@@ -9,14 +9,18 @@ function save(params) {
 
 // save(student);
 
-let showProducts = function (id,...products) {
+let showProducts = function (id,...products) {//...products gelen datayı ayrıştırır
     console.log(id);
     console.log(products[0]);
   }
 
 console.log(typeof showProducts);
+
 //rest paramater
-// showProducts(22,["erik","kiraz","fişnereçeli"]);
+showProducts(22,["erik","kiraz","fişnereçeli"]);
+//rest parameter bu şekilde de gelebilir
+showProducts(22,"erik","kiraz","fişnereçeli");
+
 
 
 
