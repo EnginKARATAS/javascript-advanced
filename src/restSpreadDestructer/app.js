@@ -34,6 +34,7 @@ console.log(..."ABC","D",..."EFG","H");
 
 
 //Destructuring //destructs = parçalamak
+  
 let populations = [10000,20000,30000,[40000, 50000]];
 let [small,medium,high,[veryHigh,max]] = populations;
 console.log(small);
